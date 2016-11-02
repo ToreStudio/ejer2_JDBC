@@ -3,10 +3,18 @@
     <servlet>
         <servlet-name>NServlet</servlet-name>
         <servlet-class>nservlet.NServlet</servlet-class>
+    </servlet> 
+   <servlet>
+        <servlet-name>XMLServlet</servlet-name>
+        <servlet-class>nservlet.XMLServlet</servlet-class>
     </servlet>
     <servlet-mapping>
         <servlet-name>NServlet</servlet-name>
         <url-pattern>/NServlet</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>XMLServlet</servlet-name>
+        <url-pattern>/XMLServlet</url-pattern>
     </servlet-mapping>
     <session-config>
         <session-timeout>

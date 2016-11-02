@@ -25,13 +25,21 @@ public class Alumno {
         this.nom = nom;
 
     }
+    
+    public Alumno(int codi, String nom, String assignatures, String tutories){
+    this.codi=codi;
+    this.nom=nom;
+    this.assignatures=assignatures;
+    this.tutories=tutories;
+    }
 
     /**
      * Constructor vacio para crear nuevos objetos de la clase alumno
      */
     public Alumno() {
     }
-
+    
+    
     public int getCodi() {
         return codi;
     }
